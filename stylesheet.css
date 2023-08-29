@@ -1,0 +1,161 @@
+body {
+  overflow-x: hidden;
+  font-family: Poppins;
+}
+.logo {
+  width: 35px;
+}
+.bgimg {
+  width: 100%;
+}
+.headingpaw {
+  width: 60px;
+}
+.headingpaw2 {
+  width: 20px;
+}
+.banner {
+  position: absolute;
+  top: 80px;
+}
+.bannerheading {
+  font-family: "Neonderthaw", cursive;
+  font-size: calc(1.375rem + 3.5vw);
+}
+
+@media only screen and (max-width: 800px) {
+  .bannerheading {
+    color: hsl(0, 0%, 90%);
+    background-color: rgb(0, 0, 0, 0.45);
+  }
+}
+/***************Footer*******************/
+.footer {
+  background-color: black;
+}
+.privacypolicy {
+  color: white;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.socialmediaicon {
+  width: 34px;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.followus {
+  display: inline;
+  color: white;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+@media only screen and (min-width: 750px) {
+  .middlecol {
+    border-left: double;
+  }
+}
+
+@media only screen and (min-width: 750px) {
+  .middlecol2 {
+    border-left: double;
+    border-right: double;
+  }
+}
+@media only screen and (max-width: 750px) {
+  .middlecol {
+    border-top: double;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .middlecol2 {
+    border-top: double;
+    border-bottom: double;
+  }
+}
+/*************************Collage****************************************/
+* {
+  box-sizing: border-box;
+}
+
+.collagerowdiv {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.collagerow {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.collagerow img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .collagerow {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .collagerow {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+/*************************Button****************************************/
+.btnexplore {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 6px 18px 6px 18px;
+  text-decoration: none;
+}
+
+.btnexplore:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+/*********************************************************************/
+.servicesphotoheadings {
+  position: absolute;
+  margin-top: 100px;
+  font-weight: 600;
+  margin-left: 10px;
+}
+.petservices {
+  margin: 10px 20px;
+}
+ul {
+  list-style: none;
+  padding-left: 0;
+}
